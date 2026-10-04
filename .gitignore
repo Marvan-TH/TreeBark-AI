@@ -1,0 +1,58 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# =========================
+# Node / React
+# =========================
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+frontend/build/
+
+# DATASETS - DO NOT UPLOAD
+dataset/
+dataset_converted/
+prepared_data/
+prepared_data_new/
+processed_data/
+processed_data_new/
+processed_resized_data/
+processed_prepared_data/
+cropped_data/
+cropped_data_new/
+cropped_prepared_data/
+
+# DUPLICATE / DATA CLEANING
+duplicate_review/
+
+# =========================
+# GENERATED OUTPUTS
+# =========================
+outputs/
+
+# =========================
+# TEMPORARY FILES
+# =========================
+*.tmp
+*.temp
+*.log
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+models/best_custom_cnn.pth
+models/best_hybrid_cnn_old.pth
+models/best_tree_bark_model.pth
